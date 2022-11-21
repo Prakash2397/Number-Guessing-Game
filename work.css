@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: steelblue;
+}
+.container{
+    width: 350px;
+    height: 100px;
+    background: orange;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px rgb(0,0,0,0.3);
+    margin: 200px auto 20px auto;
+    position: relative;
+
+}
+#num{
+    outline: none;
+    border: 1px solid black;
+    width: 90%;
+    height: 20%;
+    margin: 20px 10px;
+    background: orange;
+    border-radius: 5px;
+}
+#num::placeholder{
+    color: black;
+    padding: 5px;
+}
+#btn{
+    
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    background: royalblue;
+    font-weight: bolder;  
+    color: beige;
+}
+#btn:hover{
+    background: green;
+    color: white;
+}
+.scon{
+    width: 350px;
+    height: 200px;
+    background: orange;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(0,0,0,0.3);
+    margin: 30px auto 20px auto;
+}
+.scon .msg0{
+    background: orange;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+   
+    
+}
+.scon .msg4{
+    background: orange;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+.scon .msg1{
+    background: orange;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.scon .msg2{
+    background: orange;
+    text-align: center;
+    margin-top: 20px;
+}
